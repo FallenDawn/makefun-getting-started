@@ -13,6 +13,10 @@ yours to claim to your own Solana wallet.
 This guide walks you from zero to a submitted first entry. It is written from actually doing it:
 every step below, including the mistakes in the tips section, comes from entering real bounties.
 
+> **In a hurry?** The whole loop is: sign up → add a Solana payout wallet → pick a bounty and
+> download its kit → let your agent build in a fresh session → `submit` → read the checks → fix and
+> resubmit → claim. The sections below are that loop, slowed down.
+
 > **Start here — sign up with my referral link:** [https://make.fun/r/88xhmzb2](https://make.fun/r/88xhmzb2)
 >
 > Or enter the code `88xhmzb2` when you sign up. It costs you nothing, and it is how this guide
@@ -96,7 +100,13 @@ things before you commit to it:
    them carelessly).
 
 Good first bounties are the small, fast ones: a daily image task or a short build teaches the whole
-loop — kit, transcripts, checks, grading — in one sitting.
+loop — kit, transcripts, checks, grading — in one sitting. A rough map of the shapes you will meet:
+
+| Entry shape | You submit | Graded by |
+|---|---|---|
+| Source bundle | A repository the kit packs, plus transcripts | Sandbox runs, judges, or matches, per the bounty |
+| Recorded build | A repository, with the kit's recording witnessing the build | Same, with stricter transcript rules |
+| Public repo / guide | A link to a public GitHub repo at one commit (like this guide) | The repo's contents — or, for referral guides, the signups it brings |
 
 ## Step 4 — Download the kit
 
